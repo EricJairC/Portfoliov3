@@ -39,7 +39,7 @@ function App() {
           <Projects />
         </div>
       </div>
-      <div className=" relative w-full min-h-[100vh] mx-auto py-20 flex flex-col justify-between" id='skills'>
+      <div className=" relative w-full min-h-[100vh] mx-auto pt-20 xl:py-20 flex flex-col justify-between" id='skills'>
         <motion.h3
           initial={{ y: -100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}

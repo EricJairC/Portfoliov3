@@ -13,7 +13,7 @@ export const projects = [
     { 
         title: "Taskify", 
         stack: "Fullstack",
-        desc: "Aplicación web responsiva que permite crear y gestionar proyectos con un equipo de trabajo. En donde se implementó autenticación JWT, autorización, control de permisos, creación de base de datos, diseño web y librerías que permiten una mejor interacción con el usuario.", 
+        desc: "Aplicación web responsiva para la creación y administración de proyectos colaborativos. Incluye autenticación mediante JWT, control de permisos y roles, base de datos estructurada para gestionar usuarios, tareas y equipos. En donde se integraron librerías modernas para mejorar la experiencia de usuario e interfaces dinámicas con diseño web responsivo.", 
         img: "/img/AppTaskify.jpg",
         tecnologies: ["BiLogoTypescript", "BiLogoNodejs", "DiPostgresql", "SiExpress", "BiLogoReact", "BiLogoTailwindCss", "SiJsonwebtokens"],
         link: "https://taskify-frontend-lime.vercel.app/auth/login"
@@ -21,7 +21,7 @@ export const projects = [
     { 
         title: "Planificador de gastos", 
         stack: "Frontend",
-        desc: "Página web responsiva que permite a los usuarios administrar de manera precisa sus gastos. En donde podemos seleccionar el tipo de gasto como salud, suscripciones, hogar, etc. Así como filtrar los gastos generados.", 
+        desc: "Página web responsiva que permite a los usuarios registrar y gestionar sus gastos de forma precisa y organizada. Los gastos pueden clasificarse por categorías como salud, suscripciones, hogar, etc. En donde se pueden aplicar filtros para visualizar información específica de manera clara y eficiente.", 
         img: "/img/AppGastos2.jpg",
         tecnologies: ["BiLogoTypescript", "BiLogoReact", "BiLogoTailwindCss"],
         link: "https://extraordinary-bavarois-fcdb6f.netlify.app/"
@@ -29,7 +29,7 @@ export const projects = [
     { 
         title: "Cotizador", 
         stack: "Fullstack",
-        desc: "Aplicación web responsiva que permite el registro de usuarios para poder crear, editar y eliminar productos, así como agregar al carrito productos que otras personas crean. Dentro del carrito de compras se puede seleccionar el plazo a pagar.", 
+        desc: "Aplicación web tipo e-commerce que permite a los usuarios registrarse, gestionar su propio catálogo de productos (crear, editar y eliminar) y explorar productos de otros vendedores. Ofrece un sistema de carrito de compras con opción de seleccionar plazos de pago.", 
         img: "/img/AppTienda.jpg",
         tecnologies: ["BiLogoTypescript", "BiLogoNodejs", "DiPostgresql", "SiExpress", "BiLogoReact", "BiLogoTailwindCss", "SiJsonwebtokens"],
         link: "https://cotizador-frontend-one.vercel.app/auth/login"
@@ -37,7 +37,7 @@ export const projects = [
     { 
         title: "Sinopsis", 
         stack: "Frontend",
-        desc: "Página web responsiva que permite visualizar las películas y series más populares del momento, así como filtrarlas por categoría, año y genero. Se hizo uso de la api de The Movie Database para su elaboración.", 
+        desc: "Página web responsiva que muestra las películas y series más populares del momento, permitiendo filtrarlas por categoría, año de lanzamiento y género. La aplicación consume datos en tiempo real desde la API de The Movie Database (TMDb), ofreciendo una experiencia interactiva y actualizada para el usuario.", 
         img: "/img/AppCine.jpg",
         tecnologies: ["BiLogoJavascript", "BiLogoHtml5", "BiLogoSass"],
         link: "https://ericjairc.github.io/Portafolio/Peliculas/index.html"

@@ -43,10 +43,10 @@ export default function AboutMe() {
                         ✦
                     </motion.p>
                     <motion.p
-                        initial={{ y: 100, opacity: 0 }}
+                        initial={{ y: 60, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
-                        viewport={{ once: true, amount: 0.5 }}
+                        viewport={{ once: true, amount: 0.2 }}
                         className="descripcion font-forta text-center max-w-[600px]"
                     >
                         Ingeniero en informática con pasión por el desarrollo web y la creación de experiencias digitales únicas.
