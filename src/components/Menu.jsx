@@ -3,7 +3,7 @@ import { CiLinkedin } from "react-icons/ci";
 
 export default function Menu() {
   return (
-    <nav className="max-w-[88vw] w-[88vw] flex justify-between items-center px-0 pt-4 mx-auto">
+    <nav className="max-w-[88vw] w-[88vw] sm:max-w-[85vw] sm:w-[85vw] flex justify-between items-center px-0 pt-4 mx-auto">
       <div className="flex items-center h-10 gap-3">
         <a className="font-forta cursor-pointer tracking-widest" href="">Eric</a>
       </div>
