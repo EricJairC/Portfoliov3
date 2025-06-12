@@ -7,9 +7,9 @@ const Spline = lazy(() => import('@splinetool/react-spline'));
 
 export default function Presentation() {
     return (
-        <section className="relative flex flex-col justify-between items-center mt-[2.5em] p-0 w-full max-w-[88vw] h-screen max-h-[100vh]">
-            <div className="relative flex flex-row justify-between items-start pt-[3em] w-full h-auto">
-                <img className='logo' src={icono} alt="" />
+        <section className="relative flex flex-col justify-between items-center mt-[5em] lg:mt-[2.5em] p-0 w-full max-w-[88vw] h-screen max-h-[100vh] contenedor-gral">
+            <div className="relative flex flex-row justify-between items-start pt-[3em] w-full h-auto heroWrapper">
+                <img className='logo hidden md:block' src={icono} alt="" />
                 <div className="contenedor-3d">
                     <Suspense fallback={
                         <div className="w-full h-full flex items-center justify-center">

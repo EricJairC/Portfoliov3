@@ -5,7 +5,7 @@ export default function TextPresentation() {
     return (
         <>
             <div className="contenedor-nombre relative right-[0%] gap-[0.2rem] top-[4%] flex flex-col w-auto items-start z-[2]">
-                <div>
+                <div className='line-1'>
                     <motion.h1
                         initial={{ opacity: 0, y: "-100%" }}
                         animate={{ opacity: 1, y: 0 }}
@@ -33,7 +33,7 @@ export default function TextPresentation() {
                         Soy
                     </motion.h2>
                 </div>
-                <div>
+                <div className='line-2'>
                     <motion.h2
                         initial={{ opacity: 0, x: "50%" }}
                         animate={{ opacity: 1, x: 0 }}
@@ -48,7 +48,7 @@ export default function TextPresentation() {
                         Eric
                     </motion.h2>
                 </div>
-                <div className="relative flex flex-row w-[80%] items-center">
+                <div className="relative flex flex-row w-[80%] items-center frase">
                     <motion.div
                         initial={{ opacity: 0, x: "100%" }}
                         animate={{ opacity: 1, x: 0 }}
@@ -58,7 +58,7 @@ export default function TextPresentation() {
                             damping: 18,
                             delay: 0.55
                         }}
-                        className="flex flex-col gap-[0.2rem]"
+                        className="flex flex-col gap-[0.2rem] text-frase"
                     >
                         <p className="small-text font-forta">Más</p>
                         <p className="small-text font-forta">Que</p>

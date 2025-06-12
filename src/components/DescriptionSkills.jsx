@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 export default function DescriptionSkills() {
     return (
-        <div className='flex justify-between w-[80%] h-[50vh] mx-auto'>
+        <div className='flex flex-col md:flex-row items-center justify-between w-[80%] h-[50vh] mx-auto'>
             <div className="text-left container-text-left my-auto w-1/3 flex items-center justify-center">
                 <motion.h3
                     initial={{ x: -100, opacity: 0 }}
@@ -20,7 +20,7 @@ export default function DescriptionSkills() {
                 whileInView={{opacity: 1 }}
                 transition={{ duration: 1, ease: "easeOut" }}
                 viewport={{ once: true, amount: 1 }}
-                className='flex items-center justify-center w-1/3 h-full'
+                className='flex items-center justify-center w-full sm:w-1/3 h-full'
             >
                 <div className="container-element relative w-full h-full flex items-center justify-center">
                     <div className="w-[90%] aspect-square max-w-full max-h-full flex items-center justify-center">
