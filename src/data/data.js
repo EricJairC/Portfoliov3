@@ -16,7 +16,7 @@ export const projects = [
         desc: "Aplicación web responsiva para la creación y administración de proyectos colaborativos. Incluye autenticación mediante JWT, control de permisos y roles, base de datos estructurada para gestionar usuarios, tareas y equipos. En donde se integraron librerías modernas para mejorar la experiencia de usuario e interfaces dinámicas con diseño web responsivo.", 
         img: "/img/AppTaskify.jpg",
         tecnologies: ["BiLogoTypescript", "BiLogoNodejs", "DiPostgresql", "SiExpress", "BiLogoReact", "BiLogoTailwindCss", "SiJsonwebtokens"],
-        link: "https://taskify-frontend-lime.vercel.app/auth/login"
+        link: "https://taskify-frontend-lime.vercel.app/main"
     },
     { 
         title: "Planificador de gastos", 
