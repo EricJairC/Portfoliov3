@@ -24,7 +24,7 @@ export const projects = [
         desc: "Página web responsiva que permite a los usuarios registrar y gestionar sus gastos de forma precisa y organizada. Los gastos pueden clasificarse por categorías como salud, suscripciones, hogar, etc. En donde se pueden aplicar filtros para visualizar información específica de manera clara y eficiente.", 
         img: "/img/AppGastos2.jpg",
         tecnologies: ["BiLogoTypescript", "BiLogoReact", "BiLogoTailwindCss"],
-        link: "https://extraordinary-bavarois-fcdb6f.netlify.app/"
+        link: "https://benevolent-sorbet-6c99b5.netlify.app/"
     },
     { 
         title: "Cotizador", 
